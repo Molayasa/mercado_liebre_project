@@ -8,10 +8,10 @@ const PORT = 3000;
   res.send('<h1>Hello World!</h1>');
 }); */
 
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
-  console.log(__dirname, __filename);
- 
-  res.sendFile(path.join(__dirname, '/views/index.html'));
+  res.sendFile(path.join(__dirname, '/views/home.html'));
 });
 
 app.listen(PORT, () => {
