@@ -1,12 +1,124 @@
-.body-container {
-  width: 80%;
-  margin: 0 auto;
+/* Palette colors
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; 
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+header {
+  background-color: #eac926;
 }
 
 .logo img {
-  width: 16rem;
+  width: 10rem;
+  margin: 0.5rem;
+}
+
+.search-bar input {
+  width: 50%;
+  /* padding: 0.5rem;
+  border: none;
+  border-radius: 5px; */
+}
+
+.fa-magnifying-glass {
+  padding: 0.1rem;
+  font-size: 1.2rem;
+  background-color: #ebebeb;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.navbar-container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.2rem;
+}
+
+.burger-menu {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.fa-bars {
+  font-size: 1.8rem;
+  color: white;
+  background-color: #1259c3;
+  padding: 0.8rem;
+  border-radius: 5px;
 }
 
 .product img {
   width: 12rem;
+}
+
+.price .discount {
+  font-size: rem(18px);
+}
+
+.footer-container {
+  text-align: center;
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.footer-container i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1259c3;
+}
+
+.footer-container .footer-box {
+  margin-bottom: 3rem;
+}
+
+.footer-container p {
+  margin: 0;
+}
+
+.copyright {
+  background-color: #666;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
